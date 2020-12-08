@@ -6,15 +6,15 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'    //as untuk 
 
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Route path='/home' component={Home} />
-        <Route path='/profile' component={Profile} />
-        <Route path='/counter' component={Counter} />
-      </Router>
-    </div >
-  );
+    return (
+        <div className="App">
+            <Router>
+                <Route path='/home' component={Home} />
+                <Route path='/profile' component={Profile} />
+                <Route path='/counter' component={Counter} />
+            </Router>
+        </div >
+    );
 }
 
 export default App;

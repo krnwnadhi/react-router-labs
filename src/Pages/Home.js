@@ -6,7 +6,7 @@ export class Home extends Component {
         return (
             <div>
                 Home
-                <br />
+                <br /> <br />
                 <Link to='/profile'> To Profile Page </Link>
             </div>
         )
